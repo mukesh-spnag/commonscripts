@@ -1,6 +1,9 @@
 Git Commands : 
 
-To change user of git 
+To change user of git
+git config --global --unset user.name
+git config --global --unset user.email
+
 1) git config --global --unset credential.helper
 2) git config --system --unset credential.helper
 3) git config --global user.name "Bob" - add username to git repo 
